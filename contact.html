@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Contactformulier </title>
+</head>
+
+
+<body>
+    <nav>
+        <a href="index.html">Terug naar de vorige pagina</a>
+    </nav>
+
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>E-mail: <input type="email" name="email" /></label>
+        </p>
+        <!-- Voorbeeld van Wincacademy:
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+            </div> -->
+        <p>
+            <label>Tel : <input type="tel" name="telefoonnummer" /></label>
+        </p>
+        <p>
+            <label>Leeftijd : <input type="number" name="leeftijd" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum : <input type="date" name="geboortedatum" /></label>
+        </p>
+        <p>
+            <label>Biografie: <textarea name="message"></textarea></label>
+        </p>
+
+        <p>
+        <h2>Gender:</h2>
+        <input type="radio" name="Gender" value="Man">
+        <label for="Gender">Man</label><br>
+
+        <input type="radio" name="Gender" value="Vrouw">
+        <label for="Gender">Vrouw</label><br>
+        </p>
+        <p>
+        <h2>Favoriete cuisine</h2>
+        <input type="checkbox" name="Favoriete cuisine" value="Frans">
+        <label for="Favoriete cuisine"> Frans</label><br>
+        <!-- Voorbeeld van Wincacademy:            
+            <div>
+                Favorite Cuisine
+                <div>
+                    <label for="italian">Italian</label>
+                    <input type="checkbox" name="italian" id="italian" />
+                </div>
+                <div>
+                    <label for="french">French</label>
+                    <input type="checkbox" name="french" id="french" />
+                </div>  -->
+        <input type="checkbox" name="Favoriete cuisine" value="Italiaans">
+        <label for="Favoriete cuisine"> Italiaans</label><br>
+        <input type="checkbox" name="Favoriete cuisine" value="Spaans">
+        <label for="Favoriete cuisine"> Spaans</label><br>
+        <input type="checkbox" name="Favoriete cuisine" value="Arabisch">
+        <label for="Favoriete cuisine"> Arabisch</label><br>
+        </p>
+        <p>
+        <h2>Favoriete kleur schort</h2>
+        <label for="Favoriete kleur schort">Kies je favoriete schort kleur:</label>
+        <input type="color" name="Favoriete kleur schort" value="#ff0000"><br><br>
+        <p>
+            <label for="file">File</label>
+            <input id="file" type="file" name="file" />
+        </p>
+        <p>
+            <label for="url">URL</label>
+            <input type="url" name="url" id="url" />
+        </p>
+        </p>
+        <input type="reset" value="Reset">
+        <input type="submit">
+        <!-- voorbeeld van Wincacademy:
+         <button type="reset">Reset</button>
+         <button type="submit">Submit</button> -->
+
+    </form>
+
+
+
+</body>
+
+</html>

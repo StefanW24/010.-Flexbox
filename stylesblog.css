@@ -1,0 +1,34 @@
+.visplaatjes {
+    display:flex; 
+    height: 800px;
+}
+/* DEEL 2 van de opdracht:
+
+.blogpost {
+    width: 300px; border: 1px solid black; 
+} 
+
+Deel 3 hieronder:
+*/
+
+.blogpost1 {
+    width: 300px; border: 1px solid black;
+    flex-grow:1;
+}
+.blogpost2 {
+    width: 300px; border: 1px solid black;
+    flex-grow:4;
+}
+.blogpost3 {
+    width: 300px; border: 1px solid black;
+    flex-grow:1;
+    align-self:flex-end;
+}
+.blogpost4 {
+    width: 300px; border: 1px solid black;
+    flex-grow:1;
+}
+.blogpost5 {
+    width: 300px; border: 1px solid black;
+    flex-grow:1;
+}
